@@ -117,5 +117,5 @@ while True:
             if i > resolution[0] or i < 0:
                 game_over()
 
-    fps_controller.tick(20)
+    fps_controller.tick(15)
     pygame.display.update()
